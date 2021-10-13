@@ -21,7 +21,7 @@ public class Main {
         handler1.setHandler(handler2);
         handler2.setHandler(handler3);
 
-        List<Integer> requests = Arrays.asList(2, 5, 14, 17, 8, 20, 21, 11, 25, 0, 32, 4, 0, 2, 14);
+        List<Integer> requests = Arrays.asList(0,0,0,2, 5, 14, 17, 8, 20, 21, 11, 25, 0, 32, 4, 0, 2, 14);
 
         requests.forEach(integer -> handler.handlerRequest(integer));
     }
